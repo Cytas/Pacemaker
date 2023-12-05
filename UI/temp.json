@@ -1,0 +1,22 @@
+{
+  "username": "user1",
+  "password": "p",
+  "values": {
+    "mode": 7,
+    "LRL": 50,
+    "URL": 60,
+    "atr_amp": 0.0,
+    "Atr_Pul_Wid": 1,
+    "Atr_sens": 3,
+    "ARP": 260,
+    "Ven_amp": 3.4,
+    "Ven_Pul_Wid": 1,
+    "Ven_Sen": 2.7,
+    "VRP": 260,
+    "MSR": 130,
+    "Act_Thresh": 2,
+    "Rxn_Time": 15,
+    "RF": 7,
+    "Rec_Time": 7
+  }
+}

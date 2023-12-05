@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1088</width>
+    <height>760</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(64, 66, 112);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1092</width>
+     <height>761</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>370</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="luser_label">
+       <property name="font">
+        <font>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 13pt;
+color:rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>Connection:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="con_label">
+       <property name="font">
+        <font>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 13pt;
+color:rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>Disconnected</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>1072</width>
+      <height>308</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="1">
+          <widget class="QLabel" name="lrl">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>lrl</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="lrl_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Lower Rate Limit:                   </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="lrl_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="1">
+          <widget class="QLabel" name="apw">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>apw</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="apw_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Atrial Pulse Width:                  </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="apw_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="1">
+          <widget class="QLabel" name="va">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>va</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="va_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="va_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Ventricular Amplitude:             </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_23">
+         <item row="0" column="1">
+          <widget class="QLabel" name="vrp">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>vrp</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="vrp_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>VRP:                                      </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="vrp_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_24">
+         <item row="0" column="1">
+          <widget class="QLabel" name="react">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>react</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="react_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Reaction Time:                       </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="react_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_25">
+         <item row="0" column="1">
+          <widget class="QLabel" name="url">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>url</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="url_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Upper Rate Limit:                    </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="url_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_26">
+         <item row="0" column="1">
+          <widget class="QLabel" name="asen">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>asen</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="asen_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Atrial Sensitivity:                      </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="asen_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_27">
+         <item row="0" column="1">
+          <widget class="QLabel" name="vpw">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>vpw</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="vpw_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Ventricular Pulse Width:           </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="vpw_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_28">
+         <item row="0" column="1">
+          <widget class="QLabel" name="msr">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>msr</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="msr_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>MSR:                                      </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="msr_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_29">
+         <item row="0" column="1">
+          <widget class="QLabel" name="rf">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>rf</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="rf_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Response Factor:                     </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="rf_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_30">
+         <item row="0" column="1">
+          <widget class="QLabel" name="aa">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>aa</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="aa_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Atrial Amplitude:                    </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="aa_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_31">
+         <item row="0" column="1">
+          <widget class="QLabel" name="arp">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>arp</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="arp_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>ARP:                                     </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="arp_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_32">
+         <item row="0" column="1">
+          <widget class="QLabel" name="vs">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>vs</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="vs_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Ventricular Sensitivity:             </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="vs_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_33">
+         <item row="0" column="1">
+          <widget class="QLabel" name="at">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>at</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="at_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Activity Threshold:                  </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="at_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_34">
+         <item row="0" column="1">
+          <widget class="QLabel" name="rest">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>rest</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="rest_d">
+           <property name="styleSheet">
+            <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Recovery Time:                      </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QComboBox" name="rest_c">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="err_label">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>370</y>
+      <width>541</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 13pt;
+color:rgb(255, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>error</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>211</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="luser_label_72">
+       <property name="styleSheet">
+        <string notr="true">font-size: 14pt;
+color:rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>Mode:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="mode_c">
+       <property name="font">
+        <font>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="app_m">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 12pt;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Apply</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="send_data">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>10</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 14pt;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Send Data</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cur_m">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>10</y>
+      <width>111</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255, 255, 255);
+font-size: 28pt;</string>
+    </property>
+    <property name="text">
+     <string>Mode</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logout">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>370</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 12pt;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Logout</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="take_data">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>10</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 14pt;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Start Graph</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>410</y>
+      <width>1051</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <item>
+      <widget class="PlotWidget" name="atrialP" native="true"/>
+     </item>
+     <item>
+      <widget class="PlotWidget" name="ventricleP" native="true"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="save_data">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>10</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 14pt;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Save Parameters</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PlotWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">pyqtgraph</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

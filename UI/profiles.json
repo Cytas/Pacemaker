@@ -1,0 +1,210 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "password": "p",
+      "values": {
+        "mode": 7,
+        "LRL": 50,
+        "URL": 60,
+        "atr_amp": 0.0,
+        "Atr_Pul_Wid": 1,
+        "Atr_sens": 3,
+        "ARP": 260,
+        "Ven_amp": 3.4,
+        "Ven_Pul_Wid": 1,
+        "Ven_Sen": 2.7,
+        "VRP": 260,
+        "MSR": 130,
+        "Act_Thresh": 2,
+        "Rxn_Time": 15,
+        "RF": 7,
+        "Rec_Time": 7
+      }
+    },
+    {
+      "username": "user2",
+      "password": "new_password",
+      "values": {
+        "mode": 1,
+        "LRL": 300,
+        "URL": 140,
+        "atr_amp": 3.8,
+        "Atr_Pul_Wid": 0.5,
+        "Atr_sens": 3,
+        "ARP": 260,
+        "Ven_amp": 3.4,
+        "Ven_Pul_Wid": 0.7,
+        "Ven_Sen": 2.7,
+        "VRP": 260,
+        "MSR": 130,
+        "Act_Thresh": 5,
+        "Rxn_Time": 15,
+        "RF": 7,
+        "Rec_Time": 4
+      }
+    },
+    {
+      "username": "user3",
+      "password": "new_password",
+      "values": {
+        "mode": 1,
+        "LRL": 300,
+        "URL": 140,
+        "atr_amp": 3.8,
+        "Atr_Pul_Wid": 0.5,
+        "Atr_sens": 3,
+        "ARP": 260,
+        "Ven_amp": 3.4,
+        "Ven_Pul_Wid": 0.7,
+        "Ven_Sen": 2.7,
+        "VRP": 260,
+        "MSR": 130,
+        "Act_Thresh": 5,
+        "Rxn_Time": 15,
+        "RF": 7,
+        "Rec_Time": 4
+      }
+    },
+    {
+      "username": "user4",
+      "password": "new_password",
+      "values": {
+        "mode": 1,
+        "LRL": 300,
+        "URL": 140,
+        "atr_amp": 3.8,
+        "Atr_Pul_Wid": 0.5,
+        "Atr_sens": 3,
+        "ARP": 260,
+        "Ven_amp": 3.4,
+        "Ven_Pul_Wid": 0.7,
+        "Ven_Sen": 2.7,
+        "VRP": 260,
+        "MSR": 130,
+        "Act_Thresh": 5,
+        "Rxn_Time": 15,
+        "RF": 7,
+        "Rec_Time": 4
+      }
+    },
+    {
+      "username": "user5",
+      "password": "pass",
+      "values": {
+        "mode": 1,
+        "LRL": 300,
+        "URL": 140,
+        "atr_amp": 3.8,
+        "Atr_Pul_Wid": 0.5,
+        "Atr_sens": 3,
+        "ARP": 260,
+        "Ven_amp": 3.4,
+        "Ven_Pul_Wid": 0.7,
+        "Ven_Sen": 2.7,
+        "VRP": 260,
+        "MSR": 130,
+        "Act_Thresh": 5,
+        "Rxn_Time": 15,
+        "RF": 7,
+        "Rec_Time": 4
+      }
+    },
+    {
+      "username": "user6",
+      "password": "password",
+      "values": {
+        "mode": 1,
+        "LRL": 300,
+        "URL": 140,
+        "atr_amp": 3.8,
+        "Atr_Pul_Wid": 0.5,
+        "Atr_sens": 3,
+        "ARP": 260,
+        "Ven_amp": 3.4,
+        "Ven_Pul_Wid": 0.7,
+        "Ven_Sen": 2.7,
+        "VRP": 260,
+        "MSR": 130,
+        "Act_Thresh": 5,
+        "Rxn_Time": 15,
+        "RF": 7,
+        "Rec_Time": 4
+      }
+    },
+    {
+      "username": "user7",
+      "password": "pass",
+      "values": {
+        "mode": 1,
+        "LRL": 300
+      }
+    },
+    {
+      "username": "user8",
+      "password": "pass",
+      "values": {
+        "mode": 1,
+        "LRL": 300,
+        "URL": 140,
+        "atr_amp": 3.8,
+        "Atr_Pul_Wid": 0.5,
+        "Atr_sens": 3,
+        "ARP": 260,
+        "Ven_amp": 3.4,
+        "Ven_Pul_Wid": 0.7,
+        "Ven_Sen": 2.7,
+        "VRP": 260,
+        "MSR": 130,
+        "Act_Thresh": 5,
+        "Rxn_Time": 15,
+        "RF": 7,
+        "Rec_Time": 4
+      }
+    },
+    {
+      "username": "user9",
+      "password": "pass",
+      "values": {
+        "mode": 1,
+        "LRL": 300,
+        "URL": 140,
+        "atr_amp": 3.8,
+        "Atr_Pul_Wid": 0.5,
+        "Atr_sens": 3,
+        "ARP": 260,
+        "Ven_amp": 3.4,
+        "Ven_Pul_Wid": 0.7,
+        "Ven_Sen": 2.7,
+        "VRP": 260,
+        "MSR": 130,
+        "Act_Thresh": 5,
+        "Rxn_Time": 15,
+        "RF": 7,
+        "Rec_Time": 4
+      }
+    },
+    {
+      "username": "1",
+      "password": "1",
+      "values": {
+        "mode": 4,
+        "LRL": 60,
+        "URL": 120,
+        "atr_amp": 5.0,
+        "Atr_Pul_Wid": 1,
+        "Atr_sens": 0.75,
+        "ARP": 250,
+        "Ven_amp": 5.0,
+        "Ven_Pul_Wid": 1,
+        "Ven_Sen": 2.5,
+        "VRP": 250,
+        "MSR": 120,
+        "Act_Thresh": 4,
+        "Rxn_Time": 30,
+        "RF": 8,
+        "Rec_Time": 5
+      }
+    }
+  ]
+}
